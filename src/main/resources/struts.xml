@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.ui.templateSuffix" value="java"/>
+    <constant name="struts.ui.theme" value="simple"/>
+
+    <include file="example.xml"/>
+
+
+    <package name="/" extends="struts-default">
+        <action name="">
+            <result type="redirectAction">
+                <param name="actionName">HelloWorld</param>
+                <param name="namespace">example</param>
+            </result>
+        </action>
+    </package>
+
+    <!-- Add addition packages and configuration here. -->
+</struts>
