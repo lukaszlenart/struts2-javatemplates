@@ -9,6 +9,8 @@
 <struts>
     <package name="example" namespace="/example" extends="struts-default">
 
+        <default-action-ref name="HelloWorld" />
+
         <action name="HelloWorld" class="org.apache.struts.demo.example.HelloWorld">
             <result>/example/HelloWorld.jsp</result>
         </action>
