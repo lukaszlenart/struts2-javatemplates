@@ -1,6 +1,12 @@
+# IntelliJ IDEA
 .idea
 *.iml
 *.iws
 *.ipr
+
+# OSX
 .DS_Store
+
+# Maven
 target/
+.mvn/wrapper/maven-wrapper.jar
