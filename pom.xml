@@ -9,7 +9,7 @@
     <name>struts2-javatemplate</name>
 
     <properties>
-        <struts2.version>2.3.15-SNAPSHOT</struts2.version>
+        <struts2.version>2.5.20</struts2.version>
     </properties>
 
     <dependencies>
